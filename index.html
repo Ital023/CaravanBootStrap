@@ -11,7 +11,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light box-shadow fixed-top py-3">
         <div class="container-fluid">
 
         <a href="index.html" class="navbar-brand">
@@ -25,18 +25,30 @@
 
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="planos.html" class="nav-link">Locais</a>
-                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Locais
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">California</a></li>
+                      <li><a class="dropdown-item" href="#">Paris</a></li>
+                      <li><a class="dropdown-item" href="#">Dublin</a></li>
+                    </ul>
+                  </li>
+
                 <li class="nav-item">
                     <a href="planos.html" class="nav-link">Planos</a>
                 </li>
+
                 <li class="nav-item">
                     <a href="contato.html" class="nav-link">Contato</a>
                 </li>
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">Login</a>
                 </li>
+
                 <li class="nav-item">
                     <a href="inscricao.html" class="btn btn-outline-primary ms-md-2">Inscreva-se</a>
                 </li>
