@@ -11,6 +11,38 @@
 
 <body>
 
+    <!-- MODAL -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Entre na Sua Conta</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <!-- FORMULARIO -->
+            <form>
+              <div class="mb-3">
+                <label for="loginEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="loginEmail">
+              </div>
+              <div class="mb-3">
+                <label for="loginPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="loginPassword">
+              </div>
+              <button type="submit" class="btn btn-primary d-block mb-1">Entrar na conta</button>
+              <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui.</a></small>
+            </form>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
     <!-- HEADER -->
     <nav class="navbar navbar-expand-md navbar-light bg-light box-shadow fixed-top py-3">
         <div class="container-fluid">
@@ -47,7 +79,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Login</a>
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
                 </li>
 
                 <li class="nav-item">
@@ -264,6 +296,7 @@
       </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="bg-dark text-white">
 
       <div class="container py-4">
@@ -313,8 +346,8 @@
           <div class="col-md-2 col-6 redes-sociais d-flex align-items-center flex-column">
             <h4 class="h3">REDES SOCIAIS</h4>
             <ul class="list-unstyled">
-              <li><a href="#" class="btn w-100 btn-sm btn-outline-secondary  mb-2">Github</a></li>
-              <li><a href="#" class="btn w-100 btn-sm btn-outline-secondary mb-2">Instagram</a></li>
+              <li><a href="https://github.com/Ital023" target="_blank" class="btn w-100 btn-sm btn-outline-secondary  mb-2">Github</a></li>
+              <li><a href="https://www.instagram.com/italo_m20/" target="_blank" class="btn w-100 btn-sm btn-outline-secondary mb-2">Instagram</a></li>
               <li><a href="#" class="btn w-100 btn-sm btn-outline-secondary mb-2">Linkedln</a></li>
               
             </ul>
