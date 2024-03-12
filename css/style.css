@@ -36,6 +36,10 @@ footer a{
     border-bottom: 0;
 }
 
+.max-width260{
+    max-width: 260px;
+}
+
 @media(max-width: 768px){
     #home-quote .display-4{
         font-size: 2.5rem;
